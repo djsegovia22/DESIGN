@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Inicio | DESIGN</title>
+  <title>Clientes | DESIGN</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,22 +17,14 @@
   </ul>
 </nav>
 
-<header class="sub-hero">
-  <h1>Bienvenido a Design</h1>
-  <p>Soluciones de ingeniería modernas y efectivas</p>
-</header>
+<section class="contenido">
+  <h1>Nuestros Clientes</h1>
+  <p>Trabajamos con empresas líderes en la industria minera, eléctrica, y de construcción.</p>
 
-<section class="empresa">
-  <h2>¿Quiénes Somos?</h2>
-  <p>Somos una empresa chilena que entrega soluciones reales, rápidas y de calidad.</p>
-</section>
-
-<section class="galeria">
-  <h2>Galería</h2>
   <div class="imagenes">
-    <img src="imagenes/proyecto1.jpg" alt="Proyecto 1" />
-    <img src="imagenes/proyecto2.jpg" alt="Proyecto 2" />
-    <img src="imagenes/proyecto3.jpg" alt="Proyecto 3" />
+    <img src="imagenes/cliente1.jpg" alt="Cliente 1">
+    <img src="imagenes/cliente2.jpg" alt="Cliente 2">
+    <img src="imagenes/cliente3.jpg" alt="Cliente 3">
   </div>
 </section>
 
