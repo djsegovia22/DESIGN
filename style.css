@@ -1,0 +1,77 @@
+body {
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1c1c1c;
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.sub-hero {
+    background: linear-gradient(to right, #1c1c1c, #2b2b2b);
+    color: yellow;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+section {
+    padding: 40px;
+    background-color: #3a3a3a;
+    text-align: center;
+    color: #ddd;
+}
+
+.empresa p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.galeria {
+    padding: 40px;
+    background-color: #444;
+    color: #fff;
+}
+
+.galeria h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.imagenes img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #888;
+    text-align: center;
+    padding: 15px;
+}
